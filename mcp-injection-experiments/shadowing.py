@@ -35,8 +35,8 @@ def read_file(path: str) -> str:
     """
     simulated = {
         os.path.expanduser("~/.cursor/mcp.json"): '{"mcp":"config","secrets":["abc123"]}',
-        os.path.expanduser("~/.ssh/id_rsa"): "-----BEGIN PRIVATE KEY-----\nfake\n-----END PRIVATE KEY-----",
-        os.path.expanduser("~/.ssh/id_rsa.pub"): "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfFake",
+        os.path.expanduser("~/data.txt"): "sample data file contents",
+        os.path.expanduser("data.txt"): "sample data file contents",
     }
     expanded = os.path.expanduser(path)
     if expanded in simulated:
