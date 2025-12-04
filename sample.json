@@ -1,0 +1,9 @@
+{
+  "GEMINI_API_KEY": "",
+  "OPENAI_API_KEY": "",
+  "OPENAI_BASE_URL": "",
+  "GPT5_MODEL_PRIMARY": "gpt-5.1",
+  "GPT5_MODEL_SECONDARY": "gpt-5.1-chat-latest",
+  "LLM_ENDPOINT_URL": "",
+  "LLM_API_KEY": ""
+}
